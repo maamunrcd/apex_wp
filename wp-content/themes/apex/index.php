@@ -126,6 +126,12 @@ get_header();
     </div>
 </section>
 <section id="meet">
+    <?php
+    $welcome_message_title = get_option('welcome_message_title');
+    $welcome_message = get_option('welcome_message');
+    $welcome_message_image = get_option('welcome_message_image');
+    $details_page_url = get_option('details_page_url');
+    ?>
     <div class="container">
         <div class="col-md-6">
             <h1><?=$welcome_message_title;?></h1>
@@ -187,21 +193,45 @@ get_header();
     <div class="container">
         <div class="social-address">
             <div class="row">
+                <?php
+                $packages_status = array(
+                    'post_type' => 'projects',
+                    'posts_per_page' => -1,
+                    'order' => 'DSC'
+                );
+                $running_project=0;
+                $pending_project=0;
+                $finished_project=0;
+                $packages_status_loop = new WP_Query($packages_status);
+                while ($packages_status_loop->have_posts()) : $packages_status_loop->the_post();
+                    $project_status=get_post_meta($post->ID, 'project_status', true);
+                    if($project_status=="running"){
+                        $running_project=$running_project+count($project_status);
+                    }else if($project_status=="pending"){
+                        $pending_project=$pending_project+count($project_status);
+                    }else if($project_status=="finished"){
+                        $finished_project=$finished_project+count($project_status);
+                    }
+                    ?>
+
+                    <?php
+                endwhile;
+                ?>
                 <div class="col-md-4">
                     <center>
-                        <div id="shiva"><span class="count">200</span></div>
+                        <div id="shiva"><span class="count"><?=$running_project;?></span></div>
                         <h5>Running Project</h5>
                     </center>
                 </div>
                 <div class="col-md-4">
                     <center>
-                        <div id="shiva"><span class="count">200</span></div>
+                        <div id="shiva"><span class="count"><?=$pending_project;?></span></div>
                         <h5>Pending Project</h5>
                     </center>
                 </div>
                 <div class="col-md-4">
                     <center>
-                        <div id="shiva"><span class="count">200</span></div>
+                        <div id="shiva"><span class="count"><?=$finished_project;?></span></div>
                         <h5>Finished Project</h5>
                     </center>
                 </div>

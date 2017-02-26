@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4409eb5-628f-4808-89fe-1a4863a26df6" name="Default" comment="" />
+    <list default="true" id="b4409eb5-628f-4808-89fe-1a4863a26df6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/02/page-1_img-2-150x133.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/02/page-1_img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/02/page-1_img-3-150x133.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/02/page-1_img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/02/photobox-150x150.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/02/photobox-300x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/02/photobox.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/apex_wp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/apex/includes/projects_meta_box.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/apex/project.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/apex/service_soluction_product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/apex/assets/css/inner-page.css" afterPath="$PROJECT_DIR$/wp-content/themes/apex/assets/css/inner-page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/apex/assets/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/apex/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/apex/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/apex/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/apex/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/apex/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/apex/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/apex/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/apex/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/apex/page.php" />
+    </list>
     <ignored path="apex_wp.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,48 +46,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="237" column="44" selection-start-line="237" selection-start-column="44" selection-end-line="237" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../its_wp2/wp-content/themes/twentyseventeen/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/its/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="104" selection-end-column="6" />
+            <state relative-caret-position="154">
+              <caret line="200" column="92" selection-start-line="200" selection-start-column="84" selection-end-line="200" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -75,137 +56,177 @@
       <file leaf-file-name="single-packeges.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/its/single-packeges.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="255">
+              <caret line="237" column="74" selection-start-line="237" selection-start-column="74" selection-end-line="237" selection-end-column="74" />
               <folding>
-                <marker date="1486881584191" expanded="true" signature="5156:5196" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="5264:5308" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="5355:5376" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="5377:7123" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="5410:5431" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="5432:6550" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="5487:5508" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="5509:6541" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="5565:5642" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="5643:6535" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="5697:5718" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="5719:6529" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="5787:5808" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="5809:6494" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="5877:5929" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="5930:6455" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="5996:6017" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="6018:6412" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="6094:6115" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="6116:6365" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="6177:6283" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="6598:6650" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="6651:7123" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="6697:6718" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="6719:7123" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="6773:6815" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="6816:7123" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="6880:6919" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="6920:7123" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="7052:7085" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="7086:7123" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="7167:7188" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="7233:7456" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="7515:7740" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="7924:7945" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="7990:8213" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="8270:8495" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="8599:8620" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="8665:8888" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="8949:9174" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="9282:9303" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="9304:9867" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="9325:9548" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="9580:9805" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="9884:9905" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="9906:10468" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="9927:10150" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="10182:10407" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="10485:10506" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="10507:11065" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="10528:10751" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="10781:11006" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="11082:11103" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="11104:11676" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="11125:11348" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="11387:11612" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="11693:11714" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="11715:12274" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="11736:11959" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="11990:12215" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="12291:12312" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="12313:12889" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="12334:12557" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="12598:12823" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="12906:12927" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="12928:13486" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="12949:13172" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="13204:13429" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="13503:13524" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="13525:14083" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="13546:13769" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="13801:14026" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="14100:14121" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="14122:14686" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="14143:14366" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="14406:14631" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="14703:14724" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="14725:15291" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="14746:14969" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="15010:15235" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="15308:15329" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="15330:15914" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="15351:15574" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="15616:15841" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="15931:15952" placeholder="..." />
-                <marker date="1486881584191" expanded="true" signature="15953:16525" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="15974:16197" placeholder="..." />
-                <marker date="1486881584191" expanded="false" signature="16236:16461" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="5156:5196" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="5264:5308" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="5355:5376" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="5377:7123" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="5410:5431" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="5432:6550" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="5487:5508" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="5509:6541" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="5565:5642" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="5643:6535" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="5697:5718" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="5719:6529" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="5787:5808" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="5809:6494" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="5877:5929" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="5930:6455" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="5996:6017" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="6018:6412" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="6094:6115" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="6116:6365" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="6177:6283" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="6598:6650" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="6651:7123" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="6697:6718" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="6719:7123" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="6773:6815" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="6816:7123" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="6880:6919" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="6920:7123" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="7052:7085" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="7086:7123" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="7167:7188" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="7233:7456" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="7515:7740" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="7924:7945" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="7990:8213" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="8270:8495" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="8599:8620" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="8665:8888" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="8949:9174" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="9282:9303" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="9304:9867" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="9325:9548" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="9580:9805" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="9884:9905" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="9906:10468" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="9927:10150" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="10182:10407" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="10485:10506" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="10507:11065" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="10528:10751" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="10781:11006" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="11082:11103" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="11104:11676" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="11125:11348" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="11387:11612" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="11693:11714" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="11715:12274" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="11736:11959" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="11990:12215" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="12291:12312" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="12313:12889" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="12334:12557" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="12598:12823" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="12906:12927" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="12928:13486" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="12949:13172" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="13204:13429" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="13503:13524" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="13525:14083" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="13546:13769" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="13801:14026" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="14100:14121" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="14122:14686" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="14143:14366" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="14406:14631" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="14703:14724" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="14725:15291" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="14746:14969" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="15010:15235" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="15308:15329" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="15330:15914" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="15351:15574" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="15616:15841" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="15931:15952" placeholder="..." />
+                <marker date="1488121822768" expanded="true" signature="15953:16525" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="15974:16197" placeholder="..." />
+                <marker date="1488121822768" expanded="false" signature="16236:16461" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="soluction.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/soluction.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="311">
+              <caret line="203" column="36" selection-start-line="203" selection-start-column="36" selection-end-line="203" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/its/index.php">
+      <file leaf-file-name="packages.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/its/packages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="388" selection-end-column="2" />
+            <state relative-caret-position="323">
+              <caret line="51" column="92" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="92" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.soluction.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/single.soluction.php">
+      <file leaf-file-name="projects_meta_box.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/includes/projects_meta_box.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="14" selection-start-line="4" selection-start-column="4" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="357">
+              <caret line="27" column="123" selection-start-line="27" selection-start-column="115" selection-end-line="27" selection-end-column="123" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/page.php">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/its/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="227">
+              <caret line="498" column="37" selection-start-line="498" selection-start-column="37" selection-end-line="498" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="packages_details_meta_box.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/includes/packages_details_meta_box.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service_soluction_product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/service_soluction_product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/project.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="319" column="21" selection-start-line="319" selection-start-column="21" selection-end-line="319" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -220,6 +241,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -233,17 +257,22 @@
         <option value="$PROJECT_DIR$/wp-content/themes/apex/apex/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/apex/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/apex/themeoptions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/apex/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/its/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/apex/apex/soluction.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/apex/assets/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/apex/soluction.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/apex/single.soluction.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/apex/page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/apex/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/apex/functions.php" />
         <option value="$PROJECT_DIR$/../its_wp2/wp-content/themes/twentyseventeen/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/apex/contact.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/apex/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/apex/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/apex/service_soluction_product.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/apex/assets/css/inner-page.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/apex/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/apex/project.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/apex/includes/packages_details_meta_box.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/apex/includes/projects_meta_box.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/apex/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/apex/index.php" />
       </list>
     </option>
   </component>
@@ -252,11 +281,14 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1370" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -272,7 +304,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -284,6 +316,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -292,12 +327,121 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex_wp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex_wp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex_wp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex_wp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex_wp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex_wp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex_wp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex_wp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="its" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex_wp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex_wp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex_wp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex_wp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apex" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,6 +454,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\server\htdocs\apex_wp\wp-content\themes\apex\includes" />
       <recent name="E:\server\htdocs\apex_wp\wp-content\themes\apex" />
       <recent name="E:\server\htdocs\apex_wp\wp-content\themes\apex\assest" />
     </key>
@@ -349,6 +494,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b4409eb5-628f-4808-89fe-1a4863a26df6" name="Default" comment="" />
@@ -366,21 +514,22 @@
       <workItem from="1487517814548" duration="13400000" />
       <workItem from="1487677340940" duration="3585000" />
       <workItem from="1487691024217" duration="16443000" />
+      <workItem from="1488122823484" duration="686000" />
+      <workItem from="1488123857408" duration="11495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62358000" />
+    <option name="totallyTimeSpent" value="74539000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09694657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27458397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -391,6 +540,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -414,6 +564,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -424,41 +582,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/its/single-management.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/its/packages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/assets/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/themeoptions.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/apex/index.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/its/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5984">
-          <caret line="354" column="0" selection-start-line="354" selection-start-column="0" selection-end-line="369" selection-end-column="35" />
-          <folding>
-            <element signature="e#7#59#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -596,35 +719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/its/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="206" column="101" selection-start-line="206" selection-start-column="101" selection-end-line="206" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/themeoptions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="533" column="71" selection-start-line="532" selection-start-column="16" selection-end-line="533" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,146 +730,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="154" column="32" selection-start-line="154" selection-start-column="32" selection-end-line="160" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/its/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="e#7#59#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/apex/soluction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/apex/soluction.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/apex/washing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="234" column="22" selection-start-line="234" selection-start-column="22" selection-end-line="234" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/its/packages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="18" column="69" selection-start-line="17" selection-start-column="24" selection-end-line="18" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/its/single-packeges.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding>
-            <marker date="1486881584191" expanded="true" signature="5156:5196" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="5264:5308" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="5355:5376" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="5377:7123" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="5410:5431" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="5432:6550" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="5487:5508" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="5509:6541" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="5565:5642" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="5643:6535" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="5697:5718" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="5719:6529" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="5787:5808" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="5809:6494" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="5877:5929" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="5930:6455" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="5996:6017" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="6018:6412" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="6094:6115" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="6116:6365" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="6177:6283" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="6598:6650" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="6651:7123" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="6697:6718" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="6719:7123" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="6773:6815" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="6816:7123" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="6880:6919" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="6920:7123" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="7052:7085" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="7086:7123" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="7167:7188" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="7233:7456" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="7515:7740" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="7924:7945" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="7990:8213" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="8270:8495" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="8599:8620" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="8665:8888" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="8949:9174" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="9282:9303" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="9304:9867" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="9325:9548" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="9580:9805" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="9884:9905" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="9906:10468" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="9927:10150" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="10182:10407" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="10485:10506" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="10507:11065" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="10528:10751" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="10781:11006" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="11082:11103" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="11104:11676" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="11125:11348" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="11387:11612" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="11693:11714" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="11715:12274" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="11736:11959" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="11990:12215" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="12291:12312" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="12313:12889" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="12334:12557" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="12598:12823" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="12906:12927" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="12928:13486" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="12949:13172" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="13204:13429" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="13503:13524" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="13525:14083" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="13546:13769" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="13801:14026" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="14100:14121" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="14122:14686" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="14143:14366" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="14406:14631" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="14703:14724" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="14725:15291" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="14746:14969" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="15010:15235" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="15308:15329" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="15330:15914" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="15351:15574" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="15616:15841" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="15931:15952" placeholder="..." />
-            <marker date="1486881584191" expanded="true" signature="15953:16525" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="15974:16197" placeholder="..." />
-            <marker date="1486881584191" expanded="false" signature="16236:16461" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,30 +745,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="14" selection-start-line="4" selection-start-column="4" selection-end-line="18" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/its/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
+        <state relative-caret-position="6562">
           <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="388" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/soluction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -811,46 +760,264 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="240" column="19" selection-start-line="240" selection-start-column="19" selection-end-line="240" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../its_wp2/wp-content/themes/twentyseventeen/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="646">
           <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="237" column="44" selection-start-line="237" selection-start-column="44" selection-end-line="237" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/its/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="104" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        <state relative-caret-position="459">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/themeoptions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="125" column="15" selection-start-line="125" selection-start-column="15" selection-end-line="128" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/its/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/apex/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="80" column="10" selection-start-line="27" selection-start-column="4" selection-end-line="80" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/soluction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="48" column="60" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <marker date="1488124249945" expanded="true" signature="42:803" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/assets/css/inner-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="319" column="21" selection-start-line="319" selection-start-column="21" selection-end-line="319" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/service_soluction_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/includes/html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/includes/packages_details_meta_box.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/its/packages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="51" column="92" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="200" column="92" selection-start-line="200" selection-start-column="84" selection-end-line="200" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/its/single-packeges.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="237" column="74" selection-start-line="237" selection-start-column="74" selection-end-line="237" selection-end-column="74" />
+          <folding>
+            <marker date="1488121822768" expanded="true" signature="5156:5196" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="5264:5308" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="5355:5376" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="5377:7123" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="5410:5431" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="5432:6550" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="5487:5508" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="5509:6541" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="5565:5642" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="5643:6535" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="5697:5718" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="5719:6529" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="5787:5808" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="5809:6494" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="5877:5929" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="5930:6455" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="5996:6017" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="6018:6412" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="6094:6115" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="6116:6365" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="6177:6283" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="6598:6650" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="6651:7123" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="6697:6718" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="6719:7123" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="6773:6815" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="6816:7123" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="6880:6919" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="6920:7123" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="7052:7085" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="7086:7123" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="7167:7188" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="7233:7456" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="7515:7740" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="7924:7945" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="7990:8213" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="8270:8495" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="8599:8620" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="8665:8888" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="8949:9174" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="9282:9303" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="9304:9867" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="9325:9548" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="9580:9805" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="9884:9905" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="9906:10468" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="9927:10150" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="10182:10407" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="10485:10506" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="10507:11065" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="10528:10751" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="10781:11006" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="11082:11103" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="11104:11676" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="11125:11348" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="11387:11612" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="11693:11714" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="11715:12274" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="11736:11959" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="11990:12215" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="12291:12312" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="12313:12889" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="12334:12557" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="12598:12823" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="12906:12927" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="12928:13486" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="12949:13172" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="13204:13429" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="13503:13524" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="13525:14083" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="13546:13769" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="13801:14026" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="14100:14121" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="14122:14686" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="14143:14366" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="14406:14631" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="14703:14724" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="14725:15291" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="14746:14969" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="15010:15235" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="15308:15329" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="15330:15914" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="15351:15574" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="15616:15841" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="15931:15952" placeholder="..." />
+            <marker date="1488121822768" expanded="true" signature="15953:16525" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="15974:16197" placeholder="..." />
+            <marker date="1488121822768" expanded="false" signature="16236:16461" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/its/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="498" column="37" selection-start-line="498" selection-start-column="37" selection-end-line="498" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/includes/projects_meta_box.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="123" selection-start-line="27" selection-start-column="115" selection-end-line="27" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/apex/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="203" column="36" selection-start-line="203" selection-start-column="36" selection-end-line="203" selection-end-column="36" />
           <folding />
         </state>
       </provider>

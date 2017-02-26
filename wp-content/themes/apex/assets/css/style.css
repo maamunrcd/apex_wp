@@ -317,6 +317,7 @@ a.navbar-brand img {
 }
 #footer {
 	width:100%;
+	margin-top: 60px;
 	/*background:#00224d;*/
 	min-height:200px;
 	/*background-image:url("../images/map.png") no-repeat;*/

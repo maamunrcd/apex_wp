@@ -17,6 +17,11 @@ while (have_posts()) : the_post();
             </div>
         </div>
     </section>
+    <div id="text-about">
+        <div class="container">
+        <?php the_content(); ?>
+        </div>
+    </div>
     <?php
 endwhile;
 get_footer();

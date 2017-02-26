@@ -139,7 +139,7 @@ add_action('admin_head', 'slider_meta_box');
  * Post type is ==> solution
  */
 function solution() {
-    register_post_type('solution', array(
+    register_post_type('solutions', array(
         'labels' => array(
             'name' => __("Solutions"),
             'singular_name' => __('solution')
@@ -154,10 +154,73 @@ function solution() {
 }
 add_action('init', solution);
 function soluction_meta_box() {
-    remove_meta_box('postimagediv', 'solution', 'side');
-    add_meta_box('postimagediv', __('Solution Thumbnail Image'), 'post_thumbnail_meta_box', 'solution', 'side');
+    remove_meta_box('postimagediv', 'solutions', 'side');
+    add_meta_box('postimagediv', __('Solution Thumbnail Image'), 'post_thumbnail_meta_box', 'solutionss', 'side');
 }
 add_action('admin_head', 'soluction_meta_box');
+
+
+
+
+
+
+
+/*
+ * Create Custom Post Type Project
+ * Post type is ==> Project
+ */
+function project() {
+    register_post_type('projects', array(
+        'labels' => array(
+            'name' => __("Projects"),
+            'singular_name' => __('projects')
+        ),
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => array('slug' => 'projects'),
+        'menu_icon' => 'dashicons-admin-settings',
+        'category'=>true,
+        'supports' => array('title','thumbnail','editor','author')
+    ));
+}
+add_action('init', project);
+function project_meta_box() {
+    remove_meta_box('postimagediv', 'projects', 'side');
+    add_meta_box('postimagediv', __('Project Thumbnail Image'), 'post_thumbnail_meta_box', 'projects', 'side');
+}
+add_action('admin_head', 'project_meta_box');
+
+////Project End
+
+/* * ****
+ * Add Metabox For Packges Post
+ * **** */
+
+function project_metabox() {
+    add_meta_box(
+        'test_meta_box', __('Project Status', 'packeges'), 'packges_details_info', 'projects', 'normal', 'high'
+    );
+}
+
+add_action('add_meta_boxes', 'project_metabox');
+
+function packges_details_info() {
+    global $post;
+    require 'includes/projects_meta_box.php';
+}
+
+function save_project_meta_to_post($post_id) {
+    global $post;
+    if ($post->post_type == 'projects') {
+        update_post_meta($post_id, 'project_status', $_POST['project_status']);
+    }
+}
+
+add_action('save_post', 'save_project_meta_to_post');
+
+
+
+
 
 /*
  * Multiple Featured image Pages Post.
