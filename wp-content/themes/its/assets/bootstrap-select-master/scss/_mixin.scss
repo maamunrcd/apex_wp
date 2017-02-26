@@ -1,0 +1,90 @@
+@mixin rounded($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin border($left,$right,$top,$bottom) {
+    border-left: $left;
+    border-right:$right;
+    border-top: $top;
+    border-bottom: $bottom;
+}
+@mixin border_rounded($top_left,$top_right,$bottom_left,$bottom_right){
+    -webkit-border-top-left-radius: $top_left;
+    -moz-border-top-left-radius: $top_left;
+    border-border-top-left-radius: $top_left;
+    -webkit-border-top-right-radius: $top_right;
+    -moz-border-top-right-radius: $top_right;
+    border-top-right-radius: $top_right;
+    -webkit-border-bottom-left-radius: $bottom_left;
+    -moz-border-bottom-left-radius: $bottom_left;
+    border-bottom-left-radius: $bottom_left;
+    -webkit-border-bottom-right-radius: $bottom_right;
+    -moz-border-bottom-right-radius: $bottom_right;
+    border-border-bottom-right-radius: $bottom_right;
+}
+@mixin gradient($from, $to) {
+    background: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+    background: -moz-linear-gradient(top,  $from, $to);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}');
+}
+@mixin transition($property) {
+    -webkit-transition: $property;
+    -moz-transition: $property;
+    -o-transition: $property;
+    transition: $property;
+}
+// rotate
+@mixin rotate ($deg) {
+    @include transform(rotate(#{$deg}deg));
+}
+
+// scale
+@mixin scale($scale) {
+    @include transform(scale($scale));
+} 
+// skew
+@mixin skew ($x, $y) {
+    @include transform(skew(#{$x}deg, #{$y}deg));
+}
+//transform origin
+@mixin transform-origin ($origin) {
+    moz-transform-origin: $origin;
+    -o-transform-origin: $origin;
+    -ms-transform-origin: $origin;
+    -webkit-transform-origin: $origin;
+    transform-origin: $origin;
+}
+@mixin transform($transforms) {
+    -moz-transform: $transforms;
+    -o-transform: $transforms;
+    -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+    transform: $transforms;
+}
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+    @if $inset {
+        -webkit-box-shadow:inset $top $left $blur $color;
+        -moz-box-shadow:inset $top $left $blur $color;
+        box-shadow:inset $top $left $blur $color;
+    } @else {
+        -webkit-box-shadow: $top $left $blur $color;
+        -moz-box-shadow: $top $left $blur $color;
+        box-shadow: $top $left $blur $color;
+    }
+}
+@mixin placeholder($color){
+    .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: $color;
+    }
+    .form-control::-moz-placeholder { /* Firefox 19+ */
+        color: $color;
+    }
+    .form-control:-ms-input-placeholder { /* IE 10+ */
+        color: $color;
+    }
+    .form-control::-moz-placeholder { /* Firefox 18- */
+        color: $color;
+    }
+
+}

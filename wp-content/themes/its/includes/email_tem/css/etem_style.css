@@ -1,0 +1,17 @@
+*{ margin: 0; padding: 0; }
+html{ overflow-y: scroll;}
+body{font-family: 'Titillium Web', sans-serif;padding: 0 0 50px;width:800px;margin:auto; }
+.container{width:800px;background:url(http://itsholidaysbd.com/wp-content/uploads/2016/10/email_tem_header_bg.jpg) no-repeat center top; background-size: cover;}
+.logo_section .container{background:#1878aa;}
+.container{width:800px;}
+.logo{padding:15px 0;}
+.heading_title .container{background: url(http://itsholidaysbd.com/wp-content/uploads/2016/10/email_tem_body.jpg) no-repeat center top;background-size: cover;}
+.heading_title h4{font-size: 22px;color:#fff;font-weight: 200;line-height: 40px;}
+.tamplate_body .container .main_bg{padding-bottom: 35px;}
+.tamplate_body .content_table{background:url(http://itsholidaysbd.com/wp-content/uploads/2016/10/email_tem_bg.jpg) no-repeat center top;background-size: cover;}
+.tamplate_body .content_table table{width:100%;}
+.tamplate_body .content_table table tr td{font-weight:500;font-size: 15px;color:#6f6662;border-top: 1px solid #312620;border-bottom: 1px solid #0e0c0a;float:left;border-left: 1px solid #312620;border-right: 1px solid #0e0c0a;float:left;padding:13px 20px;}
+.tamplate_body .content_table table tr td:first-child{color:#fff;}
+@media screen and (max-width: 799px){body{width:700px;}body .container{width:700px;}}
+@media screen and (max-width: 749px){body{width:100%;}body .container{width:100%;padding:0 50px;}.tamplate_body .content_table table tr td:first-child{width: 40% !important;}.tamplate_body .content_table table tr td:last-child{width: 60% !important;}}
+@media screen and (max-width: 499px){.tamplate_body .content_table table tr td:first-child{width: 100% !important;font-size: 16px;color:white;font-weight: 700;}.tamplate_body .content_table table tr td:last-child{width: 100% !important;}}

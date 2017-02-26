@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,700i');
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.list-style li{
+	display:inline-block;
+}
+.nav-color {
+	background-color:#fff !important;
+	border-top: 5px solid #339933;
+	font-size:14px;
+}
+.navbar {
+    min-height: 70px !important;
+	margin-bottom:0px !important;
+	border-radius: 0px !important;
+	z-index:100;
+}
+.navbar-brand {
+	padding: 0px 15px!important;
+}
+a.navbar-brand img {
+	width:80%;
+}
+.header {
+    background: #339933;
+	color:#fff;
+	font-size:14px;
+	width:100%;
+	min-height:50px;
+}
+.top-margin{
+	margin-top:15px;
+}
+.list-inline a {
+	color:#fff;
+}
+#slider {
+	width:100%;
+	min-height:300px;
+	max-height:450px;
+	overflow:hidden;
+}
+
+/*slider*/
+.headings h3 {
+    text-align: center;
+	font-size:36px;
+	color:#fff;
+	text-transform:uppercase;
+}
+.bold {
+	font-weight:700;
+}
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 15% !important;
+}
+.headings p{
+    text-align: center;
+	font-size:18px;
+	font-weight:300;
+	color:#fff;
+}
+.item  img{
+	width:100%;
+	margin:0px auto;
+	overflow:hidden;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image:none;
+}
+.carousel-indicators{
+    bottom: 70px !important;
+	
+}
+.carousel-indicators li {
+
+    border: 1px solid #339933;
+}
+.carousel-indicators .active {
+    background-color: #339933 !important;
+}
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    top: 38%;
+    width: 4%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+	text-shadow: 0 0px 0px rgba(0,0,0,.6);
+    background-color: #339933;
+    filter: alpha(opacity=50);
+    opacity: 1;
+	height: 60px;
+}
+.carousel-control .fa-angle-left, .carousel-control .fa-angle-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    width: 20px;
+    height: 50px;
+    margin-top: -15px;
+    font-size: 36px;
+	line-height: 2.5;
+}
+
+/* About section*/
+#about h2 {
+	margin-top:70px;
+	text-align:center;
+	font-size:28px;
+	font-family: 'Droid Serif', serif;
+	font-weight:700;
+	padding:10px;
+	line-height:40px;
+	color:#555555;
+}
+#about p {
+	font-size:18px;
+	font-family: 'Droid Serif', serif;
+	color:#777;
+	text-align:center;
+	font-style:italic;
+	padding-top:30px;
+	line-height:25px;
+}
+.line {
+	width:40%;
+	height:3px;
+	background:#339933;
+	margin:0px auto;
+	margin-top:20px;
+}
+.line::after {
+	content:"";
+	background: url(../images/tut.png) no-repeat;
+	width:100%;
+	height:20px;
+	text-align:center;
+	margin-left: 44%;
+	padding:16px;
+	
+}
+#meet {
+	width:100%;
+	min-height:450px;
+	background:#f5f5f5;
+	margin-top:70px;
+}
+#meet h1 {
+    color: #3e3e3e;
+    font-size: 30px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+	padding-top: 80px
+}
+#meet p {
+    color: #3e3e3e;
+    font-size: 14px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 300;
+	padding-right:30px;
+}
+.sea-btn { color: #ffffff;
+    font-size: 12px;
+    line-height: 49px;
+    height: 49px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #339933;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    border-width: 0px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.sea-btn:hover {
+	color:#fff;
+	background:#018d5a;
+}
+.company_pro {
+	width:100%;
+	min-height:250px;
+	max-height:300px;
+	overflow:hidden;
+	margin-top:70px;
+	box-shadow: 0px 1px 3px #999;
+}
+#services {
+	width:100%;
+    min-height: 350px;
+    margin-top:70px;
+    text-align: center;
+    background: #fff;
+}
+#services  h3 {
+	text-transform:uppercase;
+	font-size:18px;
+	text-align:left;
+}
+#services p{
+	text-align:justify;
+	text-align-last:left;
+	color: #3e3e3e;
+	font-size: 14px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: 300;
+}
+#services .thumbnail {
+	overflow:hidden;
+}
+#services img {
+	transition:.2s;
+	
+}
+#services .thumbnail img:hover {
+	transform: scale(1.2,1.2);
+}
+.thum-img {
+	width: auto;
+	overflow: hidden;
+	background: none;
+	box-sizing: border-box;
+}
+
+.box {
+	position:relative;
+	width:100%;
+	margin-top:20px;
+	overflow:hidden;
+}
+.box .text-content {
+	position:absolute;
+	color:#fff;
+	top:0px;
+	left:0;
+	background:rgba(2,178,114,0.5);
+	min-height:350px;
+	width:100%;
+	transition:.4s;
+	-moz-transition:.4s;
+	-webkit-transition:.4s;
+	-o-transition:.4s;
+	transition-timing-function:.4s;
+	opacity:1;
+}
+.box .text-content  h4 {
+	font-size:21px;
+	font-weight:700;
+	text-transform:uppercase;
+	text-align:center;
+	padding-bottom:0px;
+	margin-top:20%;
+}
+.box .text-content  p {
+	font-size:14px;
+	font-weight:700;
+	font-style:italic;
+	text-align:center;
+	padding-bottom:20px;
+}
+.box:hover .text-content {
+	opacity:0;
+}
+
+#since {
+	width:100%;
+	min-height:390px;
+	background:url(../images/since.jpg)no-repeat;
+	background-size:100%;
+	margin-top:50px;
+}
+#since p {
+	font-family: 'Droid Serif', serif;
+	text-align:center;
+	padding-top:100px;
+	color:#fff;
+	font-size:24px;
+	display:block;
+}
+#since h3 {
+	color:#fff;
+	text-align:center;
+	font-size:32px;
+	font-weight:700;
+	font-family: 'Raleway', sans-serif;
+	padding-top:20px;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+.subbutton {
+	border-radius:0;
+	margin:0px auto;
+	display:table;
+	background:#339933;
+	border:none;
+	padding:10px 20px;
+	color:#fff;
+}
+#boxer {
+	width:100%;
+	min-height:250px;
+	margin-top:30px;
+	margin-bottom:50px;
+}
+#footer {
+	width:100%;
+	/*background:#00224d;*/
+	min-height:200px;
+	/*background-image:url("../images/map.png") no-repeat;*/
+	background:#222427 url("../images/map.png") no-repeat scroll center / 32% auto;
+	background-position: 670px 10px;
+	color:#fff;
+	
+}
+.panel-bg-color{
+	background:#1c1d22;
+	border:none;
+	margin-top:70px;
+	color:#fff;
+	border-radius:0;
+	line-height:10px;
+}
+.panel-bg-color h4{
+	font-size:24px;
+	font-weight:300;
+}
+.bg-color {
+	background:#000;
+	border:none;
+	border-radius:0;
+	height:50px;
+	margin-top:5px;
+	padding: 10px 20px;
+	color:#fff;
+}
+.form-control::-moz-placeholder {
+    color: #C4DEFF;
+}
+.atom-logo {
+	margin-top:60px;
+	color:#999;
+} 
+.recent_post {
+	
+}
+.atom-logo h4 {
+	padding-left:25px;
+	font-weight: 700;
+	color: #f9f9f9;
+	text-transform:uppercase;
+}
+.atom-logo p{
+	color:#999;
+	text-align:justify;
+	word-break: break-all;
+	font-size:12px;
+	padding-right:5px;
+	padding-top: 15px;
+}
+#social-box {
+	width:100%;
+	min-height:150px;
+	background:#f5f5f5;
+}
+.social-address {
+	margin-top:30px;
+}
+.social-address h3 {
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:24px;
+}
+.social-address i fa {
+	float:left;
+	font-size:24px;
+	color:#000;
+}
+.atom-logo ul {
+	padding:0px;
+	margin:0px;
+}
+.atom-logo ul li {
+	padding:5px 5px;
+	list-style:none;
+}
+#footer a {
+	color:#999;
+}
+
+ul.social_icon {
+	padding: 0;
+	margin-top:20px;
+}
+ul.social_icon li {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #fff;
+	border-radius: 50%;
+	color: #00224d;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+ul.social_icon li i  {
+	color:#00224d;
+}
+.footer-bottom {
+	min-height:60px;
+	width:100%;
+	background:#222;
+	margin-top:30px;
+}
+.footer-bottom p {
+	padding-top:20px;
+	font-size:12px;
+}
+  .affix {
+      top: 0;
+      width: 100%;
+	  transition:.2s;
+  }
+
+.affix + .container-fluid {
+      padding-top: 50px;
+  }
+  /*Counter*/
+  #shiva
+{
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	float:left;
+	-webkit-box-shadow: 0px 0px 5px 3px rgba(230,230,230,0.51);
+-moz-box-shadow: 0px 0px 5px 3px rgba(230,230,230,0.51);
+box-shadow: 0px 0px 5px 3px rgba(230,230,230,0.51);
+}
+.count
+{	
+	font-weight:600;
+	line-height: 78px;
+	color:#339933;
+	font-size:25px;
+}
+.social-address h5 {
+	margin-left:100px;
+	text-align: left;
+	padding-top: 30px;
+	font-weight:600;
+	font-size:18px;
+	text-transform:uppercase;
+}

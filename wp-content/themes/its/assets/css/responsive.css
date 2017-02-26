@@ -1,0 +1,906 @@
+@media screen and (max-width: 1199px) {
+    /*== Header ==*/ 
+    .top_bar .quick_contact li{font-size: 11px;}
+    .banner .custom_form{ margin:10px 0 0; }
+    .top_bar .weather{
+        float:right;
+    }
+    .top_bar .weather .city{
+        margin-right: 0;
+    }
+
+    /*== Navigation ==*/
+    .main_memu.navbar-default .navbar-collapse .navbar-nav > li a{
+        padding: 15px 11px;
+        font-size: 11px;
+        border-left:0;
+    }
+
+    /*== Our Packages ==*/
+    .contain_section .our_packages .item .packages_info .pkg_item a{
+        font-size: 13px;
+        padding:7px 0;
+    }
+    .contain_section .our_packages .item .packages_info .tag{
+        left:-90px;
+    }
+
+    /*== Footer ==*/
+    .footer_section .fotoer_logo_section::before{
+        right:0;
+    }
+    .footer_section .fotoer_logo_section::after{
+        left:0;
+    }
+    .footer_section .item{
+        min-height: 200px;
+    }
+    .footer_section .fotoer_logo_section .jcarousel-control-next{
+        right:-6px;
+    }
+
+    /*======Contact Us=======*/
+    .contact_us .main_content .contact_us_info p{
+        height: 60px;
+    }
+
+    .hotel_reservation .reservation_others_field{
+        padding: 20px 0;
+    }
+    .hotel_reservation .hotel_book_form .icon_left.col-xs-2{
+        width:15%;
+    }
+    .descripction_input.col-md-8{
+        padding-left: 0;
+    }
+
+    /*Visainfo Css*/
+    .visainfo .visainfo_services_item .item .services_details h3{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .visainfo .visainfo_services_item .item .services_details .paragraph{
+        padding: 0 11px;
+    }
+    .visainfo .visa_thing .visa_information_list .col-md-4{
+        width:32.2%;
+    }
+
+    /*Our Packges*/
+    .contain_section .our_packages .jcarousel-wrapper .our_packages_items li .item .packages_info .tag{
+        left: -88px;
+        top: -110%;
+    }
+
+
+    /*----Single Package CSS---*/
+    .contain_section .packages_content.tab-content .services_info_tab ul.package_services li{
+        padding:30px 15px;
+    }
+    .contain_section .packages_content.tab-content .services_info_tab ul.package_services li .fa{
+        font-size: 30px;
+        padding:9px 0;
+    }
+}
+
+@media screen and (max-width: 1085px) {
+
+    /*== 1st Slider style==*/
+    .tp-caption.primary_color{
+        width:165px !important;
+    }
+
+    /*----Single Package CSS---*/
+    .contain_section .packages_content.tab-content .services_info_tab .packages_others_details .table th{
+        font-weight: 700;
+        color:#848484;
+    }
+}
+@media screen and (max-width: 1023px) {
+    /*== Header CSS ==*/
+    .top_bar .weather{
+        float: left;
+        font-size: 13px;
+    }
+
+    /*== 1st Slider style==*/
+    .tp-caption.primary_color{
+        width:150px !important;
+    }
+    .top_bar .weather .degree{
+        font-size: 10px;
+    }
+    /*== Slider Content ==*/
+    .slider .ticket_section{width:135px;}
+    .contain_section .special_offer .background{
+        width:70%;
+    }
+
+    /*=== package details page*/
+    .our_package_details .packages_item .item .packages_info .tag{
+        left: -30% !important;
+    }
+    .our_package_details .main_content .packages_details .the_title h3{
+        font-size: 18px;
+    }
+
+    /*Hotel Reservision form Css*/
+
+    .small_field .form-group .col-sm-6{
+        margin:10px 0;
+    }
+    .hotel_reservation .reservation_others_field{
+        padding: 20px 0;
+    }
+    .descripction_input.col-md-8{
+        padding-left: 15px;
+    }
+
+    /*Visainfo Css*/
+    .visainfo_services_item.col-xs-12.col-sm-6.col-md-4{
+        margin:15px 0;
+    }
+    .visainfo .visa_thing .visa_information_list .col-md-4{
+        width:32.2%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /*== Global Elements ==*/
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        width: 100%;
+        transition:ease-in,  all .5s;
+    }
+    body.menu_opened{
+        margin-left: 360px;
+    }
+    .section{
+        padding: 25px 0;
+    }
+    .section .first_heading{
+        font-size: 24px;
+    }
+    /*diffalt CSS*/
+    .page_heading{
+        font-size: 28px;
+    }
+
+    /*== Top bar ==*/
+    .top_bar .social_links ul li a{
+        width:35px;
+    }
+
+    /*== Banner ==*/
+    .banner .opening_day{
+        text-align: right;
+        margin-top:7px;
+    }
+    .banner .opening_day li,
+    .banner .opening_day li:last-child{
+        font-size: 14px;
+    }
+
+    /*== Nav Bar ==*/
+    .navbar-header {
+        float: none;
+    }
+    .main_memu .search_form .form-control:focus{
+        box-shadow: none;
+    }
+    .main_memu.navbar-default .search_button_phone{
+        float:right;
+        padding:13px;
+    }
+    .form-group.input_search{
+        width:76%;
+    }
+    .navbar-default .navbar-toggle{
+        float:left;
+        border-radius: 0;
+        border: 0px;
+        margin: 0;
+        padding: 16px 15px 15px 15px;
+        display: block;
+        border-radius: 0;
+    }
+    .navbar-default .navbar-toggle:hover, 
+    .navbar-default .navbar-toggle:focus{
+        background:transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar{
+        background: rgba(255, 255, 255, 0.5);
+        margin-top: 8px;
+        width:30px;
+        height: 1px;
+        transition: all .25s .25s;
+    }
+    .navbar-default .navbar-toggle.collapsed .icon-bar:nth-child(2){
+        margin-top: 0px;
+        transform: rotate(0deg) scale(1,1);
+        transform-origin: right top;
+    }
+    .navbar-default .navbar-toggle.collapsed .icon-bar:nth-child(3){
+        margin: 8px 0 0px 0;
+    }
+    .navbar-default .navbar-toggle.collapsed .icon-bar:nth-child(4){
+        margin-top: 8px;
+        transform: rotate(0deg) scale(1,1);
+        transform-origin: right top;
+    }
+    .navbar-default .navbar-toggle .icon-bar:nth-child(2){
+        margin-top: 8px;
+        transform: rotate(45deg) scale(.5,1);
+        transform-origin: right bottom;
+    }
+    .navbar-default .navbar-toggle .icon-bar:nth-child(3){
+        margin: -1px 0 -1px 0;
+    }
+    .navbar-default .navbar-toggle .icon-bar:nth-child(4){
+        margin-top: 0px;
+        transform: rotate(-45deg) scale(.5,1);
+        transform-origin: right top;
+    }
+    .navbar-default .navbar-form{
+        border:none;
+        box-shadow:none;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        margin-bottom: 30px;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-left: 0px;
+    }
+    .navbar-nav li {
+        float: none;
+    }
+    .navbar-na li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top:1px solid #0c4d7c !important;
+        border-bottom:1px solid #1266a1;
+        border-left:0;
+        padding:15px 20px;
+    }
+    .navbar-nav li:last-child a{
+        border-top:1px solid #0c4d7c;
+        border-bottom:1px solid #1266a1;
+        border-left:0;
+    }
+
+    .main_memu.navbar-default .navbar-collapse .navbar-nav .dropdown .dropdown-menu li a{
+        padding:15px 20px;
+    }
+    .main_memu.navbar-default .navbar-collapse{
+        background: #0f5a8f;
+        margin-bottom: 0;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -360px;
+        z-index: 999;
+        width: 360px;
+        max-width: 85%;
+        overflow-y: scroll !important;
+        transition: linear, all .5s;
+        overflow-x: hidden;
+    }
+    .menu_opened .main_memu.navbar-default.navbar-fixed-top{
+        left: 360px;
+    }
+    .navbar-nav .dropdown .dropdown-menu{
+        position: relative;
+        border-radius: 0;
+        box-shadow: none;
+        margin:0 0 15px 0;
+    }
+    body.menu_opened .main_memu.navbar-default .navbar-collapse{
+        left: 0;
+        max-height: initial;
+        top:-1px;
+    }
+    .main_memu .navbar-collapse .navbar-nav .dropdown:hover > .dropdown-menu, .main_memu .navbar-collapse .navbar-nav .dropdown:focus > .dropdown-menu{
+        width:100%;
+    }
+    .main_memu .navbar-collapse .navbar-nav .dropdown:hover > .dropdown-menu li.dropdown:hover > .dropdown-menu, .main_memu .navbar-collapse .navbar-nav .dropdown:focus > .dropdown-menu li.dropdown:hover > .dropdown-menu{
+        left:0;
+    }
+
+    /*== Special Offer ==*/
+    .contain_section .special_offer .packages_item p{
+        padding: 0 100px;
+    }
+
+    /*== Footer ==*/
+    .footer_section .fotoer_logo_section::before,
+    .footer_section .fotoer_logo_section::after{
+        display: none;
+    }
+
+    /*===== Inner page =====*/
+    .main_content .featured_image{width:100%;margin: 0 0 30px 0}
+
+    .main_memu .navbar-collapse .navbar-nav .dropdown .dropdown-menu{
+        width:100%;
+        margin-bottom: 15px;
+    }
+
+
+    /*======Others Services=======*/
+    .others_services .others_services_item i{
+        margin:20px 0 0 0;
+    }
+
+    /*===Visainfo css===*/
+    .visainfo .visa_thing .visa_information_list .col-md-4 .visa_list_item p span{
+        font-size: 50px;
+        height: 130px;
+        line-height: 80px;
+        padding: 0 15px 0 0;
+    }
+    .visainfo .visa_thing .visa_information_list .col-md-4{
+        width:31.9%;
+    }
+
+    /*======Contact Us=======*/
+    .contact_us .main_content .contact_form .col-lg-6:nth-child(1), .contact_us .main_content .contact_form .col-lg-6:nth-child(3){
+        padding-right: 15px;
+    }
+    
+    .contain_section .package_social_shareing ul.package_social_share{
+        margin: 0 0 30px 0;
+    }
+    .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td{
+        border:1px solid #f1ecec;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .slider .ticket_section{width:128px;}
+    /*== 1st Slider style==*/
+    .tp-caption.primary_color{
+        width:135px !important;
+        height: 120px !important;
+    }
+}
+@media screen and (max-width: 890px) {
+    .slider .ticket_section{width:115px;}
+    .contain_section #photos .thumbnail{margin: 0 10px;}
+}
+@media screen and (max-width: 840px) {
+    /*== 1st Slider style==*/
+    .tp-caption.primary_color{
+        width:120px !important;
+        height: 105px !important;
+    }
+    .contain_section #photos .slider_thumbs .thumb_item{padding: 10px 0;}
+}
+@media screen and (max-width: 800px) {
+    .slider .ticket_section{width:110px;}
+}
+
+@media screen and (max-width: 767px) {
+    /*== Top Bar ==*/
+    .top_bar .quick_contact ul{
+        margin-bottom: 5px;
+    }
+    .top_bar .quick_contact li{
+        font-size: 12px;
+    }
+    .top_bar .quick_contact li:last-child{
+        float:right;
+    }
+
+    /*== Banner ==*/
+    .banner .opening_day{
+        float:right;
+        margin-top: 10px;
+    }
+    .banner .opening_day li{
+        padding-right: 0;
+        border: 0;
+        display:block;
+    }
+    .logo_section.col-xs-12 {
+        width:50%;
+    }
+    .opening_day_section.col-xs-12 {
+        width:50%;
+    }
+
+    /*== Navbar ==*/
+    .form-group.input_search{
+        width:100%;
+    }
+    .collapse{
+        display:block;
+    }
+    body.menu_opened .main_memu.navbar-default .navbar-collapse{
+        left: 15px;
+    }
+
+    /*== Our Packages ==*/
+    .packages_item.col-xs-12{width:50%;}
+    .contain_section .our_packages .item .packages_info .tag{left:-200px;}
+
+    /*== Slider ==*/
+    .ticket_section_air.tp-caption.lft.customout.rs-parallaxlevel-0.start{left:10% !important;}
+    .ticket_section_bus.tp-caption.lft.customout.rs-parallaxlevel-0.start{left: 30% !important;}
+    .ticket_section_train.tp-caption.lft.customout.rs-parallaxlevel-0.start{left: 50% !important;}
+    .hotel_booking_section.tp-caption.lft.customout.rs-parallaxlevel-0.start{left: 70% !important;}
+    .slider .ticket_section{width:130px;}
+    .slider .ticket_section span{font-size: 12px;}
+
+    /*== Footer ==*/
+    .footer_section .quar_code a{text-align:left;}
+
+    /*====Photo Gallery====*/
+    .photo_gallery .element-item{
+        width:calc(50% - 10px);
+    }
+
+    /*====Special offer====*/
+    .col-xs-12.col-md-6.sj.animated.fadeInLeft > a{
+        font-size: 28px;
+    }
+
+    /*====Our Clients and affiliation css====*/
+    .logo_items .col-xs-12{
+        width:50%;
+    }
+    .single_logo_item{
+        font-size: 15px;
+    }
+
+    /*====Hotel Reservation css====*/
+    .hotel_reservation .reservation_others_field{
+        margin:0;
+    }
+    .small_field .form-group .col-xs-6{
+        width:100%;
+    }
+    .hotel_reservation_form .hotel_book_form{
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    .hotel_reservation_form .reservation_others_field{
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    .hotel_reservation_form{
+        background: #f7f7f7 none repeat scroll 0 0;
+        border: 1px solid #c4c4c4;
+        padding: 20px 0;
+    }
+    .package_booking_model .hotel_book_form{
+        padding:15px;
+    }
+
+    /*===Visainfo css===*/
+    .visainto_services .visainfo_services_item.col-xs-12{
+        width:50%;
+        margin:15px 0;
+    }
+    /*Visainfo Css*/
+    .visainfo .visainfo_services_item .item .services_details h3{
+        font-size: 14px;
+    }
+
+    /*===Visainfo css===*/
+    .visainfo .visa_thing .visa_information_list .col-md-4{
+        width:100%;
+    }
+    .visainfo .visa_thing .visa_information_list .col-md-4 .visa_list_item p span{
+        height: 50px;
+        line-height: 20px;
+    }
+    .visainfo .visa_thing .visa_information_list .col-md-4 .visa_list_item{
+        width: 98.5%;
+    }
+    .visainfo .visa_thing .visa_information_list .col-md-4{
+        margin: 5px 0;
+    }
+    .visainfo .visa_thing .visa_information_list .col-md-4 .visa_list_item p span{
+        line-height: 40px;
+    }
+
+    /*===Visainfo css===*/
+    .visainfo .visa_thing .what_visa_things .col-xs-12{
+        margin:15px 0;
+    }
+    .visainfo .visa_thing .visa_information_list{
+        padding: 40px 30px 10px;
+    }
+
+    /*===Country_visa_info css===*/
+    .country_information .application_section .country_name_and_details .country_title{
+        font-size: 20px;
+    }
+    .country_information .application_section .visiting_facilitys .main_title, .country_information .application_section .make_with_appoinment .main_title, .country_information .application_section .contry_social_info .main_title, .country_information .application_section .some_more_popular .main_title{
+        font-size: 16px;
+    }
+    .country_information .application_section .visiting_facilitys .visiting_facilitys_info .visiting_facilitys_title, .country_information .application_section .visiting_facilitys .visiting_facilitys_info strong, .country_information .application_section .make_with_appoinment .visiting_facilitys_info .visiting_facilitys_title, .country_information .application_section .make_with_appoinment .visiting_facilitys_info strong, .country_information .application_section .contry_social_info .visiting_facilitys_info .visiting_facilitys_title, .country_information .application_section .contry_social_info .visiting_facilitys_info strong, .country_information .application_section .some_more_popular .visiting_facilitys_info .visiting_facilitys_title, .country_information .application_section .some_more_popular .visiting_facilitys_info strong{
+        font-size: 15px;
+    }
+    .country_information .application_section .visiting_facilitys .visiting_facilitys_info .address, .country_information .application_section .make_with_appoinment .visiting_facilitys_info .address, .country_information .application_section .contry_social_info .visiting_facilitys_info .address, .country_information .application_section .some_more_popular .visiting_facilitys_info .address{
+        font-size: 14px;
+    }
+    .country_information .application_section .visiting_facilitys .visiting_facilitys_info .paragraph a, .country_information .application_section .visiting_facilitys .visiting_facilitys_info p a, .country_information .application_section .make_with_appoinment .visiting_facilitys_info .paragraph a, .country_information .application_section .make_with_appoinment .visiting_facilitys_info p a, .country_information .application_section .contry_social_info .visiting_facilitys_info .paragraph a, .country_information .application_section .contry_social_info .visiting_facilitys_info p a, .country_information .application_section .some_more_popular .visiting_facilitys_info .paragraph a, .country_information .application_section .some_more_popular .visiting_facilitys_info p a{
+        font-size: 16px;
+    }
+    .country_information .application_section .visiting_facilitys .visiting_facilitys_info .paragraph, .country_information .application_section .visiting_facilitys .visiting_facilitys_info p, .country_information .application_section .make_with_appoinment .visiting_facilitys_info .paragraph, .country_information .application_section .make_with_appoinment .visiting_facilitys_info p, .country_information .application_section .contry_social_info .visiting_facilitys_info .paragraph, .country_information .application_section .contry_social_info .visiting_facilitys_info p, .country_information .application_section .some_more_popular .visiting_facilitys_info .paragraph, .country_information .application_section .some_more_popular .visiting_facilitys_info p{
+        font-size: 14px;
+    }
+    .country_information .application_section .some_more_popular .county_flat_item.col-md-2{
+        padding-right: 15px;
+    }
+    .county_flat_item.col-sm-3.col-md-2.col-lg-2{
+        float: left;
+        width: 50%;
+        padding: 15px;
+    }
+    .county_flat_item.col-sm-3.col-md-2.col-lg-2 .thumbnail{
+        padding-top: 15px;
+    }
+    .contain_section .packages_content.tab-content .itinerary .package_day_details p strong{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 740px) {
+    /*== 1st Slider style==*/
+    .tp-caption.primary_color{
+        width:105px !important;
+        height:90px !important;
+    }
+    .contain_section #photos .thumbnail{
+        min-height:0;
+    }
+}
+@media screen and (max-width: 695px) {
+    /*======Contact Us=======*/
+    .contact_us .main_content .contact_us_info p{
+        height: 80px;
+    }
+
+    /*== 1st Slider style==*/
+    .tp-caption.primary_color{
+        width:90px !important;
+        height:75px !important;
+    }
+}
+@media screen and (max-width: 680px) {
+    /*== Global ==*/
+    body.menu_opened{
+        margin-left: 280px;
+    }
+
+    /*== Banner ==*/
+    .banner .opening_day li{
+        display: block;
+        border-right: 0;
+        border-bottom: 1px solid #5cb5f5;
+        padding: 0 0 3px 0;
+        margin:0 0 5px 0;
+    }
+    .top_bar .quick_contact li{
+        font-size: 13px;
+    }
+    .banner .opening_day li:last-child{
+        padding-left: 0;
+    }
+
+    /*== Navbar ==*/
+    .main_memu.navbar-default .navbar-collapse{
+        width: 280px;
+    }
+
+    /*== Slider ==*/
+    .slider .ticket_section{width:120px;}
+    .ticket_section_air.tp-caption.lft.customout.rs-parallaxlevel-0.start{top:25% !important;}
+    .ticket_section_bus.tp-caption.lft.customout.rs-parallaxlevel-0.start{top:25% !important;}
+    .ticket_section_train.tp-caption.lft.customout.rs-parallaxlevel-0.start{top:25% !important;}
+    .hotel_booking_section.tp-caption.lft.customout.rs-parallaxlevel-0.start{top:25% !important;}
+
+
+    /*== Message form Director ==*/
+    .message_section img{
+        margin:auto;
+    }
+    .message_section .col-xs-6{
+        width:100%;
+    }
+    .message_form_company_emp .page_heading, .message_form_company_emp .page_heading{
+        text-align: center;
+        font-size: 24px;
+    }
+    .message_form_company_emp .paragraph, .message_form_company_emp .paragraph{
+        text-align-last: center;
+        -moz-text-align-last: center;
+        margin-top:20px;
+    }
+    .message_form_company_emp .social_links_personal .social_flow, .message_form_company_emp .social_links_personal .social_flow{
+        text-align: center;
+    }
+    .message_form_company_emp .social_links_personal ul, .message_form_company_emp .social_links_personal ul{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    /*== Special Offer ==*/
+    .contain_section .special_offer .packages_item p{
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    /*== Navbar ==*/
+    .main_memu.navbar-default .search_form{
+        padding: 30px;
+    }
+
+    /*== Slider ==*/
+    .slider .ticket_section{
+        width:95px;
+    }
+
+    /*== Our Packages ==*/
+    .contain_section .our_packages .item .packages_info .tag{
+        left:-180px;
+    }
+    .packages_item.col-xs-12,.packages_item .item img{
+        width:100%;
+    }
+
+    /*====Photo Gallery====*/
+    .photo_gallery .masonry_filter .btn{
+        margin:3px;
+    }
+
+    /*===Visainfo css===*/
+    .visainto_services .visainfo_services_item.col-xs-12{
+        width:100%;
+    }
+    .visainfo .visainfo_services_item .item .services_details h3{
+        font-size: 18px;
+    }
+    .visainfo .page_heading{
+        text-align: center;
+        line-height: 30px;
+    }
+    .visainfo .page_heading{
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+
+    /*Our Packges*/
+    .contain_section .our_packages .jcarousel-wrapper .our_packages_items li .item .packages_info .tag{
+        left: -60px;
+    }
+
+    /*----Single Package CSS---*/
+    .contain_section .packages_content.tab-content .services_info_tab ul.package_services li{
+        width:50%;
+        float:left;
+    }
+    .contain_section ul.packages_nav.nav.nav-tabs li a{
+        padding:15px 25px;
+    }
+
+    .contain_section .packages_content.tab-content .services_info_tab .packages_others_details .table th{
+        width:100%;
+        float:left;
+    }
+    .contain_section .packages_content.tab-content .services_info_tab .packages_others_details .table tr, .contain_section .packages_content.tab-content .services_info_tab .packages_others_details .table th, .contain_section .packages_content.tab-content .services_info_tab .packages_others_details .table td{
+        width: 100%;
+        float: left;
+    }
+    .contain_section .packages_content.tab-content .services_info_tab .packages_others_details .table tr{
+        padding:0;
+    }
+}
+@media screen and (max-width: 570px) {
+    /*== 1st Slider style==*/
+    .tp-caption.primary_color{
+        width:75px !important;
+        height:60px !important;
+    }
+
+    /*== Banner ==*/
+    .logo_section.col-xs-12{
+        width:100%;
+    }
+    .logo_section.col-xs-12 img{
+        margin:auto;
+    }
+    .banner .opening_day{
+        display: none;
+    }
+    /*==Other Services==*/
+    .others_services .others_services_item .col-xs-4, .col-xs-8{
+        width:100%;
+    }
+    /*==Contact us==*/
+    .contact_us .main_content .col-xs-6{
+        width:100%;
+    }
+    .contact_us .main_content .col-xs-offset-6{
+        margin-left:0;
+    }
+    .contact_us .main_content .contact_us_info p{
+        height: 60px;
+    }
+
+    /*====Our Clients and affiliation css====*/
+    .logo_items .col-xs-12{
+        width:100%;
+    }
+    /*====Hotel Reservation css====*/
+    .small_field .form-group .col-xs-6{
+        width:100%;
+        margin:10px 0;
+    }
+
+    /*===Visainfo css===*/
+    .visainfo .visa_thing .visa_information_list .col-md-4 .visa_list_item p span{
+        height: 60px;
+    }
+    .visainfo .visa_thing .visa_information_list .col-md-4 .visa_list_item{
+        width: 97.5%;
+    }
+
+
+    /*===Country_visa_info css===*/
+    .county_flat_item.col-sm-3.col-md-2.col-lg-2{
+        float: none;
+        width: 100%;
+    }
+    .country_information .application_section .contry_social_info ul li{
+        margin: 10px 0;
+    }
+
+
+    /*Our Packges*/
+    .contain_section .our_packages .jcarousel-wrapper .our_packages_items li .item .packages_info .tag{
+        left: -175px;
+    }
+
+    /*Spacial Offer*/
+    .contain_section .special_offer .packages_item p{
+        padding: 0;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .quar_code{
+        padding:0 135px 0px  0;
+    }
+    /*== 1st Slider style==*/
+    .tp-caption.primary_color{
+        width:65px !important;
+        height:55px !important;
+    }
+    /*== Global ==*/
+    .col-480-100{
+        width:100%;
+    }
+
+    /*== Our Packages ==*/
+    .contain_section .our_packages .item .packages_info .tag{left:-165px;}
+
+    /*== Slider ==*/
+    .slider .ticket_section{width:75px;padding:10px 0;}
+    .slider .ticket_section span{font-size: 9px;}
+    .ticket_section_air.tp-caption.lft.customout.rs-parallaxlevel-0.start{left:5% !important;top:20% !important;}
+    .ticket_section_bus.tp-caption.lft.customout.rs-parallaxlevel-0.start{left:28% !important;top:20% !important;}
+    .ticket_section_train.tp-caption.lft.customout.rs-parallaxlevel-0.start{left:51% !important;top:20% !important;}
+    .hotel_booking_section.tp-caption.lft.customout.rs-parallaxlevel-0.start{left:74% !important;top:20% !important;}
+
+    /*== Footer ==*/
+    .footer_section .col-480-100{
+        margin-left: 0;
+    }
+
+    /*====Photo Gallery====*/
+    .photo_gallery .element-item{
+        width:100%;
+    }
+
+    /*=====Contact Us======*/
+    .footer_section .item{
+        margin-bottom: 30px;
+        min-height: auto;
+    }
+
+    /*====Special offer====*/
+    .contain_section .our_packages .item .packages_info .tag{
+        left:-140px;
+    }
+
+    /*Visainfo Css*/
+    .visainfo .visainfo_services_item .item .services_details h3{
+        font-size: 14px;
+    }
+
+    /*===Visainfo css===*/
+    .visainfo .visa_thing .visa_information_list .col-md-4 .visa_list_item p span{
+        height: 60px;
+    }
+
+    /*Our Packges*/
+    .contain_section .our_packages .jcarousel-wrapper .our_packages_items li .item .packages_info .tag{
+        left: -145px;
+        font-size: 15px;
+    }
+
+    /*---Paper Add Start---*/
+    .paper_additem{
+        height: 180px;
+    }
+
+    /*----Single Package CSS---*/
+    .contain_section ul.packages_nav.nav.nav-tabs li a{
+        padding:15px 15px;
+    }
+}
+
+@media screen and (max-width:410px) {
+    /*====Special offer====*/
+    .contain_section ul.packages_nav.nav.nav-tabs li{
+        float:left;
+        width:50%;
+    }
+}
+@media screen and (max-width:420px) {
+    /*====Special offer====*/
+    .contain_section .our_packages .item .packages_info .tag{
+        left:-100px;
+    }
+    /*Our Packges*/
+    .contain_section .our_packages .jcarousel-wrapper .our_packages_items li .item .packages_info .tag{
+        left: -110px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    /*== 1st Slider style==*/
+    .tp-caption.primary_color{
+        width:55px !important;
+        height:45px !important;
+    }
+}
+@media screen and (max-width:360px) {
+    /*== 1st Slider style==*/
+    .tp-caption.primary_color{
+        width:50px !important;
+        height:40px !important;
+    }
+
+    /*====Special offer====*/
+    .contain_section .packages_content.tab-content .services_info_tab ul.package_services li, .contain_section ul.packages_nav.nav.nav-tabs li{
+        width:100%;
+    }
+    /*== Top bar==*/
+    .top_bar .quick_contact li i{
+        display: none;
+    }
+
+    /*====Special offer====*/
+    .contain_section .our_packages .item .packages_info .tag{
+        left:-100px;
+    }
+    /*Our Packges*/
+    .contain_section .our_packages .jcarousel-wrapper .our_packages_items li .item .packages_info .tag{
+        left: -90px;
+    }
+}

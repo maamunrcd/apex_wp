@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 27, 2016, 5:28:21 PM
+    Author     : Sarower
+*/
+
+.sj_postbox h2{
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+}
+.js .postbox .hndle{
+    cursor: pointer;
+}
+.wrap h2.nav-tab-wrapper{
+    margin-bottom: 10px;
+}
+.member_meta_box input[type="text"]{
+    width:100%;
+}
+#g_map_location{
+    width:550px;
+    height:250px;
+}
+
+.site_options tr{
+    vertical-align: top;
+}
+.site_options tr img{
+    vertical-align: top;
+}
+.site_options tr .hints{
+    color:gray;
+    font-style: italic;
+    display: inline-block;
+    margin-left:30px;
+}
+.site_options .stag-table-metabox-table .button{
+    text-align: center;
+}
+
+.custom_avatar tr td{
+    vertical-align: top;
+}
+.custom_avatar tr td .uploader .button{
+    text-align: center;
+}

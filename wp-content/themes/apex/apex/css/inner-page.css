@@ -1,0 +1,111 @@
+/*about page*/
+#company-about {
+	width:100%;
+	min-height:200px;
+	max-height:200px;
+	background: url("../images/inner-pagebg.jpg") no-repeat scroll center top / 100% auto;
+	background-size: cover;
+}
+.brat_cumb {
+	background:none;
+	border:none;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+	margin-top:75px;
+	
+}
+.brat_cumb a {
+	color:#fff;
+}
+#text-about {
+	margin-top:70px;
+}
+#text-about {}
+.h3_text {
+	color: #223243;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+#text-about p{
+	text-align:justify;
+	text-align-last:left;
+	padding-right:10px;
+}
+/*end about page*/
+
+.no-color {
+	background:none;
+	border:none;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+}
+.form-controler {
+    height: 50px !important;
+    padding: 6px 10px !important;
+    font-size: 14px;
+	margin-bottom:30px;
+	color:#777 !important;
+}
+/*Industrys*/
+	
+/*end Industrys*/
+/*contact us*/
+#contact-form {
+	margin-top:70px;
+	margin-bottom:50px;
+}
+#map{
+	width:100%;
+	min-height:350px;
+	background:#fff;
+}
+#contact-form ul li {
+	line-height:1.9;
+}
+/*washing*/
+.link-panel {
+}
+.link-panel ul li {
+	list-style:none;
+	font-size:14px;
+	line-height:40px;
+	padding-left:10px;
+	border-bottom:1px solid #ccc;
+	text-align:left;
+}
+.link-panel ul li:nth-child(1){
+	padding: 10px 10px 5px;
+	font-size:18px;
+	font-weight:600;
+	background:#339933;
+	color:#fff;
+	margin-bottom: 10px;
+}
+.link-panel ul li a {
+	text-decoration:none;
+	color:#555;
+}
+.link-panel ul li:nth-last-child(1) {
+	border-bottom:none;
+}
+.link-panel ul li a:hover {
+	color:#339933;
+	border-bottom:none;
+}
+.infra {
+	width:100%;
+	min-height:300px;
+	margin-top:50px;
+	margin-bottom:30px;
+	clear:both;
+}
+.infra h3 {
+	text-transform:uppercase;
+	padding:0px;
+	margin:0px;
+}
+.infra hr {
+	padding:5px;
+	margin-top:5px;
+}

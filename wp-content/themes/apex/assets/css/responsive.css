@@ -1,0 +1,495 @@
+@media screen and (max-width: 1199px) {
+    .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 1% !important;
+}
+    .carousel-indicators {
+    bottom: 0px !important;
+}
+}
+
+@media screen and (max-width: 1085px) {
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 1% !important;
+}
+    .carousel-indicators {
+    bottom: 0px !important;
+}
+
+    
+}
+@media screen and (max-width: 1023px) {
+    /*== Header CSS ==*/
+    .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 1% !important;
+}
+    .carousel-indicators {
+    bottom: 0px !important;
+}
+
+}
+
+@media screen and (max-width: 991px) {
+    
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 1% !important;
+}
+}
+@media screen and (max-width: 800px) {
+	.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 1% !important;
+}
+    .carousel-indicators {
+    bottom: 0px !important;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 4% !important;
+}
+.carousel-indicators {
+    bottom: 0px !important;
+}
+}
+@media screen and (max-width: 740px) {
+    #slider {
+    width: 100%;
+    min-height: 223px;
+    overflow: hidden;
+}
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 0% !important;
+}
+.carousel-indicators {
+    bottom: 0px !important;
+}
+}
+
+@media only screen and (max-width: 681px){
+	#slider {
+    width: 100%;
+    min-height: 240px;
+    overflow: hidden;
+}
+.headings h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.carousel-indicators {
+    bottom: 0px !important;
+}
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 0% !important;
+}
+}
+@media only screen and (max-width: 640px) {
+	#slider {
+    width: 100%;
+    min-height: 240px;
+    max-height: 450px;
+    overflow: hidden;
+    background: #000;
+}
+.carousel-indicators {
+    bottom: 0px !important;
+}
+.headings h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 0% !important;
+}
+}
+@media screen and (max-width: 570px) {
+#slider {
+    width: 100%;
+    min-height: 180px;
+    max-height: 450px;
+    overflow: hidden;
+}
+.carousel-indicators {
+    bottom: 0px !important;
+}
+.headings h3 {
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 0% !important;
+}
+    
+}
+@media screen and (max-width:480px) {
+    
+    /*== Slider style==*/
+	#slider {
+    width: 100%;
+    min-height: 180px;
+    overflow: hidden;
+}
+.carousel-indicators {
+    bottom: 0px !important;
+}
+}
+
+@media screen and (max-width:410px) {
+    /*====Special offer====*/
+    
+}
+@media screen and (max-width:420px) {
+    
+}
+
+@media screen and (max-width:400px) {
+	 #slider {
+    width: 100%;
+    min-height: 120px;
+    max-height: 150px;
+    overflow: hidden;
+}
+.carousel-indicators{
+    bottom: 0px !important;
+}
+.carousel-caption {
+    right: 10%;
+    left: 10%;
+    padding-bottom: 0% !important;
+}
+.headings h3 {
+    text-align: center;
+	font-size:18px;
+	font-weight:700;
+	color:#fff;
+	line-height:1;
+	margin-top:5px;
+}
+.headings p{
+    text-align: center;
+	display:table;
+	font-size:12px;
+	font-weight:300;
+	color:#fff;
+	line-height:1;
+}
+	/*About*/
+#about h2 {
+	margin-top: 25px;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Droid Serif', serif;font-weight: 700;
+	padding: 0px;
+	line-height: 24px;
+	color: #555555;
+	}
+	.line::after {
+    content: "";
+    background: url(../images/tut.png) no-repeat;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin-left: 34%;
+    padding: 16px;
+}
+#about p {
+    font-size: 15px;
+    font-family: 'Droid Serif', serif;
+    color: #777;
+    text-align: center;
+    font-style: italic;
+    padding-top: 30px;
+    line-height: 22px;
+}
+/*Service section*/
+#services {
+    margin-top: 40px;
+}
+/*meet*/
+#meet {
+	margin-top:40px;
+}
+#meet h1 {
+    color: #3e3e3e;
+    font-size: 18px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+#meet p {
+    color: #3e3e3e;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 5px;
+    text-align: justify;
+}
+#since {
+    width: 100%;
+    min-height: 70px;
+    background: url(../images/since.jpg)no-repeat;
+    background-size: 100%;
+    margin-top: 50px;
+}
+#since p {
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+    padding-top: 34px;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    line-height: 0;
+}
+#since h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 0px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    padding-bottom: 16px;
+    line-height: 0;
+}
+.box {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.box .text-content {
+    position: absolute;
+    color: #fff;
+    top: 0px;
+    left: 0;
+    background: rgba(2,178,114,0.5);
+    width: 100%;
+    transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition-timing-function: .4s;
+    opacity: 1;
+    overflow: hidden;
+}
+.box .text-content h4 {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-top: 12%;
+    line-height: 1.3;
+}
+.box .text-content p {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 14px;
+    line-height: 1.5;
+}
+   
+}
+@media screen and (max-width:360px) {
+	/*s;ider*/
+    #slider {
+    width: 100%;
+    min-height: 120px;
+    max-height: 150px;
+    overflow: hidden;
+}
+.carousel-indicators{
+    bottom: 0px !important;
+}
+.carousel-caption {
+    right: 10%;
+    left: 10%;
+    padding-bottom: 0% !important;
+}
+.headings h3 {
+    text-align: center;
+	font-size:14px;
+	font-weight:700;
+	color:#fff;
+	line-height:1;
+	margin-top:5px;
+}
+.headings p{
+    text-align: center;
+	display:table;
+	font-size:12px;
+	font-weight:300;
+	color:#fff;
+	line-height:1;
+}
+	/*About*/
+#about h2 {
+	margin-top: 25px;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Droid Serif', serif;font-weight: 700;
+	padding: 0px;
+	line-height: 24px;
+	color: #555555;
+	}
+	.line::after {
+    content: "";
+    background: url(../images/tut.png) no-repeat;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin-left: 34%;
+    padding: 16px;
+}
+#about p {
+    font-size: 15px;
+    font-family: 'Droid Serif', serif;
+    color: #777;
+    text-align: center;
+    font-style: italic;
+    padding-top: 30px;
+    line-height: 22px;
+}
+/*Service section*/
+#services {
+    margin-top: 40px;
+}
+/*meet*/
+#meet {
+	margin-top:40px;
+}
+#meet h1 {
+    color: #3e3e3e;
+    font-size: 18px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+#meet p {
+    color: #3e3e3e;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 5px;
+    text-align: justify;
+}
+#since {
+    width: 100%;
+    min-height: 70px;
+    background: url(../images/since.jpg)no-repeat;
+    background-size: 100%;
+    margin-top: 50px;
+}
+#since p {
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+    padding-top: 34px;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    line-height: 0;
+}
+#since h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 0px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    padding-bottom: 16px;
+    line-height: 0;
+}
+.box {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.box .text-content {
+    position: absolute;
+    color: #fff;
+    top: 0px;
+    left: 0;
+    background: rgba(2,178,114,0.5);
+    width: 100%;
+    transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition-timing-function: .4s;
+    opacity: 1;
+    overflow: hidden;
+}
+.box .text-content h4 {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-top: 12%;
+    line-height: 1.3;
+}
+.box .text-content p {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 14px;
+    line-height: 1.5;
+}
+}
+@media screen and (max-width:360px) {
+	 #slider {
+    width: 100%;
+    min-height: 120px;
+    max-height: 150px;
+    overflow: hidden;
+}
+.headings h3 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    margin-top: 10px;
+}
+}
