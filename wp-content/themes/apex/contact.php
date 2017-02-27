@@ -28,18 +28,27 @@ if (have_posts()) : while (have_posts()) : the_post();
 			<div class="row">
 				<form action="">
 				<div class="col-md-4">
+					<?php
+					$phone_no_1 = get_option('phone_no_1');
+					$phone_no_2 = get_option('phone_no_2');
+					$phone_no_3 = get_option('phone_no_3');
+					$email_1 = get_option('email_1');
+					$email_2 = get_option('email_2');
+					$email_3 = get_option('email_3');
+					$email_4 = get_option('email_4');
+					$address = get_option('address');
+					$address_2 = get_option('address_2');?>
 					<h3>Corporate Headquarters</h3>
 					<ul class="list-unstyled">
 						<li><i class="fa fa-map-marker"></i>
 						Jafarabad, Mohannadpur, Dhaka-1207</li>
 						<li><i class="fa fa-phone"></i>
-						<a href="tel:+17247465300">1.724.746.5300</a>
+						<a href="tel:<?=$phone_no_1?>"><?=$phone_no_1?></a>
 						</li><li><i class="fa fa-phone"></i>
-						Customer Service: <a href="tel:+18557280001">1.855.728.0001</a></li>
+						Customer Service: <a href="<?=$phone_no_2;?>"<?=$phone_no_2;?></a></li>
 						<li><i class="fa fa-envelope-o"></i>
-						<a href="mailto:apex-engineeringbd.com">apex-engineeringbd.com</a>
+						<a href="mailto:apex-engineeringbd.com"><?=$email_1;?></a>
 						</li>
-						<li><a href="www.apex-engineeringbd.com">apex-engineeringbd.com</a></li>
 					</ul>
 
 				</div>

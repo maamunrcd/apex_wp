@@ -193,18 +193,18 @@ add_action('admin_head', 'project_meta_box');
 ////Project End
 
 /* * ****
- * Add Metabox For Packges Post
+ * Add Metabox For Projects Post
  * **** */
 
 function project_metabox() {
     add_meta_box(
-        'test_meta_box', __('Project Status', 'packeges'), 'packges_details_info', 'projects', 'normal', 'high'
+        'test_meta_box', __('Project Status', 'packeges'), 'products_details_info', 'projects', 'normal', 'high'
     );
 }
 
 add_action('add_meta_boxes', 'project_metabox');
 
-function packges_details_info() {
+function products_details_info() {
     global $post;
     require 'includes/projects_meta_box.php';
 }
@@ -218,7 +218,7 @@ function save_project_meta_to_post($post_id) {
 
 add_action('save_post', 'save_project_meta_to_post');
 
-
+//End  * Project Post Type
 
 
 
@@ -299,3 +299,68 @@ function page_banner_url() {
 }
 add_action('admin_head', 'page_banner_meta_box');
 add_action('admin_head', 'page_banner_url');
+
+
+
+
+
+
+//
+/*
+ * Create Custom Post Type Project
+ * Post type is ==> Project
+ */
+function industrie() {
+    register_post_type('industries', array(
+        'labels' => array(
+            'name' => __("Industries"),
+            'singular_name' => __('industries')
+        ),
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => array('slug' => 'industries'),
+        'menu_icon' => 'dashicons-admin-multisite',
+        'category'=>true,
+        'supports' => array('title','thumbnail','editor','author')
+    ));
+}
+add_action('init', industrie);
+function industries_meta_box() {
+    remove_meta_box('postimagediv', 'industries', 'side');
+    add_meta_box('postimagediv', __('Industries Thumbnail Image'), 'post_thumbnail_meta_box', 'industries', 'side');
+}
+add_action('admin_head', 'industries_meta_box');
+
+////Project End
+
+
+
+
+
+//
+/*
+ * Create Custom Post Type Project
+ * Post type is ==> Project
+ */
+function product() {
+    register_post_type('products', array(
+        'labels' => array(
+            'name' => __("Products"),
+            'singular_name' => __('products')
+        ),
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => array('slug' => 'Products'),
+        'menu_icon' => 'dashicons-image-rotate-right',
+        'category'=>true,
+        'supports' => array('title','thumbnail','editor','author')
+    ));
+}
+add_action('init', product);
+function product_meta_box() {
+    remove_meta_box('postimagediv', 'products', 'side');
+    add_meta_box('postimagediv', __('Products Thumbnail Image'), 'post_thumbnail_meta_box', 'products', 'side');
+}
+add_action('admin_head', 'product_meta_box');
+
+////Project End

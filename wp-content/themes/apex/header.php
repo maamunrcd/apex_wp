@@ -40,7 +40,7 @@ $address_2 = get_option('address_2');
                 </ul>
             </div>
             <div class="col-sm-3 header-top-social">
-                <ul class="top-margin list-unstyled list-inline">
+                <ul class="top-margin list-unstyled list-inline pull-right">
                     <li class="active"><a target="_blank" href="https://www.facebook.com/<?= $facebook; ?>"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li><a target="_blank" href="https://twitter.com/<?= $twitter; ?>"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li><a target="_blank" href="https://www.youtube.com/<?= $youtube; ?>"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
