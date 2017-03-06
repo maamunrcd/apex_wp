@@ -2,6 +2,9 @@
 body{
 	font-family: 'Raleway', sans-serif;
 }
+li{
+	list-style: none;
+}
 .list-style li{
 	display:inline-block;
 }
@@ -326,6 +329,27 @@ a.navbar-brand img {
 	background-color: transparent;
 	border-bottom: 2px solid #339933;
 }
+.navbar-nav > li:hover{
+	border-bottom: 2px solid #339933;
+}
+.navbar-nav > li .dropdown-menu{
+	top:100%;
+	padding: 0;
+	margin:0;
+	background: #298229;
+	min-width: 242px;
+	left:0;
+
+}
+.navbar-nav > li .dropdown-menu li a{
+	border-top: 1px solid #339933;
+	border-bottom: 1px solid #087108;
+	color:white;
+
+}
+.navbar-nav > li .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+	background:#339933;
+}
 #footer {
 	width:100%;
 	margin-top: 60px;
@@ -473,4 +497,7 @@ box-shadow: 0px 0px 5px 3px rgba(230,230,230,0.51);
 	font-weight:600;
 	font-size:18px;
 	text-transform:uppercase;
+}
+#btnContactUs{
+	margin-top: 20px;
 }

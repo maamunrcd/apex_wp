@@ -27,6 +27,35 @@ while (have_posts()) : the_post();
                 <div class="col-md-4">
                     <div class="link-panel">
                         <ul>
+                            <?php
+                            $post_name=get_post_type( get_the_ID());
+                            if($post_name=="post"){
+                                ?>
+                                    <div class="link-panel">
+                                        <ul>
+                                            <li>Recent Related News </li>
+                                            <?php
+                                            $post_list = array(
+                                                'post_type' => 'post',
+                                                'posts_per_page' => 2,
+                                                'order' => 'DSC'
+                                            );
+                                            $post_list_loop = new WP_Query($post_list);
+                                            while ($post_list_loop->have_posts()) : $post_list_loop->the_post();
+                                                ?>
+                                                <li>
+                                                    <a href="<?php the_permalink();?>">
+                                                        <?php echo get_the_title(); ?>
+                                                    </a>
+                                                </li>
+                                                <?php
+                                            endwhile;
+                                            ?>
+                                        </ul>
+                                    </div>
+                                <?php
+                            }else{
+                            ?>
                             <li>Industries Our <?=get_post_type( get_the_ID()) ?></li>
                             <?php
                             $post_list = array(
@@ -69,6 +98,9 @@ while (have_posts()) : the_post();
                                 ?>
                         </ul>
                     </div>
+                                <?php
+                                }
+                                ?>
                 </div>
             </div>
         </div>

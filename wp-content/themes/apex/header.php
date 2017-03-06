@@ -71,13 +71,11 @@ $address_2 = get_option('address_2');
                 <a href="<?php echo esc_url(home_url('/')); ?>">
                     <img class="img-responsive" src="<?php echo ($logo_url == '') ? esc_url(get_template_directory_uri()) . '/assets/images/logo.png' : $logo_url ?>" alt="" />
                 </a>
-                <a class="navbar-brand page-scroll" href="<?php echo ($logo_url == '') ? esc_url(get_template_directory_uri()) . '/assets/images/atomap-logo.png' : $logo_url ?><?php echo esc_url(home_url('/')); ?>"></a>
-
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <?php
                     wp_nav_menu(array(

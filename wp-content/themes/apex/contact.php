@@ -26,7 +26,6 @@ if (have_posts()) : while (have_posts()) : the_post();
 				<div class="col-sm-4"></div>
 			</div>
 			<div class="row">
-				<form action="">
 				<div class="col-md-4">
 					<?php
 					$phone_no_1 = get_option('phone_no_1');
@@ -41,7 +40,7 @@ if (have_posts()) : while (have_posts()) : the_post();
 					<h3>Corporate Headquarters</h3>
 					<ul class="list-unstyled">
 						<li><i class="fa fa-map-marker"></i>
-						Jafarabad, Mohannadpur, Dhaka-1207</li>
+						<?php echo $address; ?></li>
 						<li><i class="fa fa-phone"></i>
 						<a href="tel:<?=$phone_no_1?>"><?=$phone_no_1?></a>
 						</li><li><i class="fa fa-phone"></i>
@@ -52,7 +51,9 @@ if (have_posts()) : while (have_posts()) : the_post();
 					</ul>
 
 				</div>
+				<div class="col-md-8">
 					<?php the_content(); ?>
+				</div>
 
 			</div>
 		</div>

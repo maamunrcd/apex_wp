@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-<section id="company-about">
+<section id="company-about" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/images/inner-pagebg.jpg') no-repeat scroll center top / 100% auto;">
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-md-6">
