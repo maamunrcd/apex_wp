@@ -198,7 +198,7 @@ function project() {
         ),
         'public' => true,
         'has_archive' => true,
-        'rewrite' => array('slug' => 'projects'),
+        'rewrite' => array('slug' => 'project'),
         'menu_icon' => 'dashicons-admin-settings',
         'category'=>true,
         'supports' => array('title','thumbnail','editor','author')
@@ -339,7 +339,7 @@ function industrie() {
         ),
         'public' => true,
         'has_archive' => true,
-        'rewrite' => array('slug' => 'industries'),
+        'rewrite' => array('slug' => 'industrie'),
         'menu_icon' => 'dashicons-admin-multisite',
         'category'=>true,
         'supports' => array('title','thumbnail','editor','author')
@@ -363,7 +363,7 @@ add_action('admin_head', 'industries_meta_box');
  * Create Custom Post Type Project
  * Post type is ==> Project
  */
-function product() {
+function products() {
     register_post_type('products', array(
         'labels' => array(
             'name' => __("Products"),
@@ -377,7 +377,7 @@ function product() {
         'supports' => array('title','thumbnail','editor','author')
     ));
 }
-add_action('init', product);
+add_action('init', products);
 function product_meta_box() {
     remove_meta_box('postimagediv', 'products', 'side');
     add_meta_box('postimagediv', __('Products Thumbnail Image'), 'post_thumbnail_meta_box', 'products', 'side');

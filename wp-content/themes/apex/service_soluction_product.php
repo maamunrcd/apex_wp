@@ -8,8 +8,21 @@
  *
  */
 get_header();
+if (class_exists('MultiPostThumbnails')) {
+        $image_name = 'feature-image-2';  // sets image name as feature-image-1, feature-image-2 etc.
+        if (MultiPostThumbnails::has_post_thumbnail('page', $image_name)) {
+            $image_id = MultiPostThumbnails::get_post_thumbnail_id('page', $image_name, $post->ID);  // use the MultiPostThumbnails to get the image ID
+            $image_feature_url = wp_get_attachment_image_src($image_id, 'feature-image'); // define full size src based on image ID
+        }
+    }; // end if MultiPostThumbnails 
+    $defoult_file = get_template_directory_uri() . '/assets/images/inner-pagebg.jpg';
+    if (empty($image_feature_url[0])) {
+        $print_img = $defoult_file;
+    } else {
+        $print_img = $image_feature_url[0];
+    }
 ?>
-    <section id="company-about">
+    <section id="company-about" style="background: url('<?=$print_img; ?>') no-repeat scroll center top / 100% auto;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-6">
